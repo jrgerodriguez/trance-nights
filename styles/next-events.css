@@ -159,6 +159,13 @@ nav {
     /* Centra verticalmente la imagen */
     transform: translateY(-50%);
     /* Ajusta para centrar exactamente */
+    padding-top: 3rem;
+}
+
+@media (max-width: 828px) {
+    .img-link img {
+        padding-top: 1rem;
+    }
 }
 
 nav ul {
