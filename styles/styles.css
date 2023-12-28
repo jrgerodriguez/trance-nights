@@ -333,6 +333,7 @@ li a:hover::before {
         /* Centra verticalmente la imagen */
         transform: translateY(-35%);
         /* Ajusta para centrar exactamente */
+        transition: opacity 1s, transform 1s;
     }
 }
 
