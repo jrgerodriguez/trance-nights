@@ -60,6 +60,10 @@ a {
 
 /* Utilities */
 
+.underlined {
+    text-decoration: underline;
+}
+
 button {
     padding: 1rem 7rem;
     border: 1px solid var(--blanco);
