@@ -32,16 +32,18 @@
 
     </header>
     <nav>
-        <input type="checkbox" id="check">
+        <input type="checkbox" id="check" onchange="changeIcon()">
         <label for="check" class="checkbtn">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="32" height="32"
-                viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round"
-                stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M4 6l16 0" />
-                <path d="M4 12l16 0" />
-                <path d="M4 18l16 0" />
-            </svg>
+            <div id="menuicon">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="32"
+                    height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M4 6l16 0" />
+                    <path d="M4 12l16 0" />
+                    <path d="M4 18l16 0" />
+                </svg>
+            </div>
         </label> <!--checkbtn-->
 
 
@@ -101,11 +103,10 @@
             <img src="images/tntba.jpg" alt="Flyer">
             <div class="next-content">
                 <h2>Trance Nights</h2>
-                <p>Nuestro concepto principal, Trance Nights, próximamente tendrá su primer evento del año. Stay tuned!</p>
+                <p>Nuestro concepto principal, Trance Nights, próximamente tendrá su primer evento del año. Stay tuned!
+                </p>
                 <div>
-                    <a class="location"
-                        href=""
-                        target="_blank">
+                    <a class="location" href="" target="_blank">
                     </a>
                 </div>
             </div> <!--next content-->
@@ -128,7 +129,7 @@
     </footer>
 
     <script src="https://pagos.wompi.sv/js/wompi.pagos.js"></script>
-
+    <script defer src="./scripts/index.js"></script>
 </body>
 
 </html>
