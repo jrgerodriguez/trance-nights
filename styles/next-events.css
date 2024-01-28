@@ -396,3 +396,24 @@ footer p,
 .footer-sn-icons .sn-icon {
     margin: 0 .5rem;
 }
+
+/*iframe*/
+
+#iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    width: 100%;
+
+}
+
+@media screen and (min-width: 768px) {
+    #iframe iframe {
+        width: 70%; 
+        height: 600px;
+        max-width: 100%;
+        margin-top: 5rem;
+        border-radius: 5px;
+    }
+}
