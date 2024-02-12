@@ -295,7 +295,7 @@ li a:hover::before {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        height: 50vh;
+        height: 100vh;
     }
 }
 
@@ -319,7 +319,7 @@ li a:hover::before {
 
 .hero-content h1 {
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateY(50%);
     /* Mueve el h1 50px hacia abajo, o sea desde donde inicia*/
     transition: opacity 1s, transform 1s;
     /* Agrega transiciones para opacidad y transformación (transformacion altera el elemento, tomara 1 segundo volver a la opacidad y posicion inicial */
@@ -333,9 +333,9 @@ li a:hover::before {
 
 @media (max-width: 625px) {
     .hero-content {
-        top: 50%;
+        top: 40%;
         /* Centra verticalmente la imagen */
-        transform: translateY(-35%);
+        transform: translateY(-10%);
         /* Ajusta para centrar exactamente */
         transition: opacity 1s, transform 1s;
     }
