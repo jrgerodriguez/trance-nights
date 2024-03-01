@@ -113,7 +113,7 @@ p {
 
 @media (max-width: 625px) {
     h1 {
-        font-size: 3.5rem;
+        font-size: 5rem;
     }
 
     h2 {
@@ -344,9 +344,9 @@ li a:hover::before {
 
 @media (max-width: 625px) {
     .hero-content {
-        top: 40%;
+        top: 50%;
         /* Centra verticalmente la imagen */
-        transform: translateY(-10%);
+        transform: translateY(-30%);
         /* Ajusta para centrar exactamente */
         transition: opacity 1s, transform 1s;
     }
