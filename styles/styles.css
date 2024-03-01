@@ -139,17 +139,6 @@ nav {
     height: 6rem;
     width: 100%;
     position: relative;
-    animation: fade 3s;
-}
-
-@keyframes fade {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
 }
 
 .img-link {
@@ -329,11 +318,22 @@ li a:hover::before {
 }
 
 .hero-content h1 {
-    opacity: 0;
-    transform: translateY(50%);
+    /* opacity: 0; */
+    /* transform: translateY(50%); */
     /* Mueve el h1 50px hacia abajo, o sea desde donde inicia*/
-    transition: opacity 1s, transform 1s;
+    /* transition: opacity 1s, transform 1s; */
     /* Agrega transiciones para opacidad y transformación (transformacion altera el elemento, tomara 1 segundo volver a la opacidad y posicion inicial */
+    animation: fade 3s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 @media (max-width: 828px) {
