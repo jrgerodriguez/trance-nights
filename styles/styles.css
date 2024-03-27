@@ -595,3 +595,94 @@ footer p,
 .footer-sn-icons .sn-icon {
     margin: 0 .5rem;
 }
+
+/* Banner */
+
+#banner {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    z-index: 9999;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#banner-content {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#banner-message {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.animation {
+    top: -100px;
+    animation: slideFromBottom 1s ease forwards;
+}
+
+@keyframes slideFromBottom {
+    from {
+        top: -100px;
+    }
+
+    to {
+        top: 50%;
+    }
+}
+
+#banner-content img {
+    height: 55rem;
+    width: auto;
+    position: relative;
+}
+
+
+#banner.show {
+    display: block;
+}
+
+#closeBtn {
+    display: block;
+    text-align: right;
+    cursor: pointer;
+    color: #555;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0.5rem;
+}
+
+#closeBtn:hover {
+    color: #000;
+}
+
+.banner-button {
+    padding: 1rem 7rem;
+    border: none;
+    color: white;
+    background-color: #571710;
+    font-size: 2.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.banner-button:hover {
+    padding: 1rem 7rem;
+    border: none;
+    color: white;
+    background-color: #571715;
+    font-size: 2.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
