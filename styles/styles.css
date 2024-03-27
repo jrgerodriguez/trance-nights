@@ -610,6 +610,7 @@ footer p,
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
+    overflow-y: scroll;
 }
 
 #banner-content {
@@ -642,7 +643,7 @@ footer p,
 }
 
 #banner-content img {
-    height: 55rem;
+    height: 47rem;
     width: auto;
     position: relative;
 }
@@ -670,19 +671,21 @@ footer p,
 .banner-button {
     padding: 1rem 7rem;
     border: none;
-    color: white;
-    background-color: #571710;
-    font-size: 2.5rem;
+    color: black;
+    background-color: #F7BD10;
+    font-size: 2rem;
     font-weight: bold;
     cursor: pointer;
+    font-family: 'Helvetica';
 }
 
 .banner-button:hover {
     padding: 1rem 7rem;
     border: none;
-    color: white;
-    background-color: #571715;
-    font-size: 2.5rem;
+    color: black;
+    background-color: #F7BD15;
+    font-size: 2rem;
     font-weight: bold;
     cursor: pointer;
+    font-family: 'Helvetica';
 }
