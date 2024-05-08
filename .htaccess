@@ -1,6 +1,5 @@
+RewriteBase /
 RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule !.*\.html$ %{REQUEST_URI}.html [L,NC]
-
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*\.html\ HTTP/
-RewriteRule ^(.*)\.html$ /$1 [R=301,L]
+RewriteRule ^(.*)$ $1.html
