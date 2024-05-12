@@ -40,3 +40,17 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("banner").classList.remove("show");
   });
 });
+
+// ---------- VIDEO ---------
+
+document.addEventListener('DOMContentLoaded', function() {
+  var video = document.getElementById('miVideo');
+
+  // Reproducir el video automáticamente al cargar la página
+  video.play();
+
+  // Detectar el evento de recarga de la página y volver a reproducir el video
+  window.addEventListener('beforeunload', function() {
+      video.play();
+  });
+});
