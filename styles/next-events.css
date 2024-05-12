@@ -296,7 +296,8 @@ li a:hover::before {
     padding: 5rem;
 }
 
-main .next img {
+main .next img,
+main .next video {
     height: 500px;
     /* Establece la altura deseada */
     max-width: 100%;
