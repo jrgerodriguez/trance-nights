@@ -673,7 +673,8 @@ footer p,
     padding: 1rem 7rem;
     border: none;
     color: black;
-    background-color: #0086E1;
+    background-color: #c69e00;
+    /* #0086E1; */
     font-size: 2rem;
     font-weight: bold;
     cursor: pointer;
@@ -684,7 +685,7 @@ footer p,
     padding: 1rem 7rem;
     border: none;
     color: black;
-    background-color: #00568f;
+    background-color: #b99813;
     font-size: 2rem;
     font-weight: bold;
     cursor: pointer;
